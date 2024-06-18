@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyproj
+*.pyc
+
+# Virtual environment
+venv/
+env/
+__env__/
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution/dist folder
+dist/
+build/
+
+# .egg-info
+*.egg-info/
+
+# Misc
+*.DS_Store
+*.log
+*.swp
+*.tmp
+*.bak
+*.vscode/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Environment variables file
+.env
+
+# Compiled bytecode
+__pycache__/
+
+# Coverage
+htmlcov/
+.coverage
+.tox/
+
+# Dependency files
+pip-wheel-metadata/
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Type hint cache
+__pycache__
+
+# pyright
+typings/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# pytest
+__pytest_cache__/
+
+# pycache for pytest
+.pytest_cache/
+
+# flake8
+.flake8
+
+# pydocstyle
+.pydocstyle
+
+# bandit
+.bnd/
+
+# rope
+.ropeproject
+
+# Black
+.black*
