@@ -1,6 +1,7 @@
 from tkinter import Tk, Text, Menu
 from .file_menu import FileMenu
 from .edit_menu import EditMenu
+from .format_menu import FormatMenu
 
 
 class MenuBar:
@@ -12,3 +13,4 @@ class MenuBar:
         # Add Submenus
         self.file_menu = FileMenu(self.root, self.text_area, self.menu)
         self.edit_menu = EditMenu(self.root, self.text_area, self.menu)
+        self.format_menu = FormatMenu(self.root, self.text_area, self.menu)
