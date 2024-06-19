@@ -1,4 +1,5 @@
 from tkinter import Tk, Text, Frame, Scrollbar
+from menubar import MenuBar
 
 
 class MainWindow:
@@ -25,6 +26,10 @@ class MainWindow:
         self.scrollbar_y = Scrollbar(self.text_frame, command=self.text_area.yview)
         self.scrollbar_y.pack(side="right", fill="y")
         self.text_area.config(yscrollcommand=self.scrollbar_y.set)
+
+        # Add Menubar
+        self.menu_bar = MenuBar(self.root, self.text_area)
+        self.root.config(menu=self.menu_bar.menu)
 
 
 if __name__ == "__main__":
