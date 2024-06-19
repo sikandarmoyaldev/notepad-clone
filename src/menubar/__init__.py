@@ -1,4 +1,5 @@
 from tkinter import Tk, Text, Menu
+from .file_menu import FileMenu
 
 
 class MenuBar:
@@ -7,5 +8,5 @@ class MenuBar:
         self.text_area = text_area
         self.menu = Menu(self.root)
 
-    
-    
+        # Add Submenus
+        self.file_menu = FileMenu(self.root, self.text_area, self.menu)
